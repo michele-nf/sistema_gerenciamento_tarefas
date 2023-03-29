@@ -1,0 +1,43 @@
+body {
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form {
+    width: 300px;
+}
+label {
+    color: white;
+}
+input {
+    padding: 3px;
+    margin-bottom: 10px;
+    width: -webkit-fill-available;
+    border: none;
+}
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: -webkit-fill-available;
+}
+button:active {
+    opacity: 0.6;
+}
+.clear {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.solid {
+    background-color: white;
+    border: none;
+    color: coral;
+}
+.outline {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
